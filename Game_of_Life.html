@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<!-- Check the javascript file for explanations, copyright and so on-->
+	<head>
+		<title>Game of Life</title>
+		<link rel="stylesheet" href="Game_of_Life.css">
+		<script type="text/javascript" src="Game_of_Life.js"></script>
+	</head>
+	<body>
+
+		<h1>Conway's Game of Life</h1>
+
+		<div class="ui" id="ui">
+			<div class="canvas">
+				<canvas class="board" id="main"></canvas>
+			</div>
+			<div class="control">
+				Grid Scale
+				<input type="number" class="dimensions" id="scale" >
+				X-Center
+				<input type="number" class="dimensions" id="xcenter">
+				Y-Center
+				<input type="number" class="dimensions" id="ycenter">
+				Delay
+				<input type="number" class="dimensions" id="delay">
+				<p></p>
+				<button type="button" class="dimensions" id="start">
+				Start
+				</button>
+				<button type="button" class="dimensions" id="stop">
+				Stop
+				</button>
+				<button type="button" class="dimensions" id="step">
+				Step
+				</button>
+				<p></p>
+				Load
+				<input type="file" class="dimensions" id="load">
+				<button type="button" class="dimensions" id="save">
+				Save
+				</button>
+				<p></p>
+				<button type="button" class="dimensions" id="random">
+				Random
+				</button>
+				Box Width
+				<input type="number" class="dimensions" id="rx" >
+				Box Height
+				<input type="number" class="dimensions" id="ry">
+				Cell Likelihood
+				<input type="number" class="dimensions" id="pc" >
+				<script>initiate();</script>
+			</div>
+		</div>
+		
+	</body>
+	
+</html>

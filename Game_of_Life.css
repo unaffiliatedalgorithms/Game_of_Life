@@ -1,0 +1,89 @@
+:root{
+	--controltext: 1.5em;
+	--controlbgcolor:#000000;
+	--controlcolor:#FFFFFF;
+	--inputbgcolor:#FFFFFF;
+	--inputcolor:#000000;
+	--buttonbgcolor:#AAAAAA;
+	--buttoncolor:#000000;
+}
+
+html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	padding: 0;
+    margin: 0;
+	min-height: 100%;
+	height:100%;
+	text-align: center;
+	background-color: var(--controlbgcolor);
+	color:var(--controlcolor);
+}
+
+h1{
+	padding: 0;
+    margin: 0;
+}
+
+div.ui{
+	padding: 0;
+    margin: 0;
+	background-color: #FF0000;
+	width: 100%;
+	height: 95%;
+}
+
+div.canvas{
+	padding: 0;
+    margin: 0;
+	width: 80%;
+	height: 100%;
+	float:left;
+}
+
+div.control{
+	padding: 0;
+    margin: 0;
+	width: 20%;
+	height: 100%;
+	float:left;
+	font-size: var(--controltext);
+	background-color: var(--controlbgcolor);
+	color:var(--controlcolor);
+	border:1em;
+	
+}
+
+
+canvas.board{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+    margin: 0;
+	background-color: #000000;
+}
+
+input.dimensions{
+	width: 100%;
+	padding: 0;
+    margin: 0;
+	border-width: 0;
+	background-color: var(--inputbgcolor);
+	color: var(--inputcolor);
+	text-align: center;
+	font-size: 1em;
+}
+
+button.dimensions{
+	width: 100%;
+	padding: 0;
+    margin: 0;
+	border-width: 0.2em;
+	background-color: var(--buttonbgcolor);
+	color: var(--buttoncolor);
+	font-size: 1em;
+}
